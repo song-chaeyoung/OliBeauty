@@ -96,8 +96,9 @@ document.addEventListener("DOMContentLoaded", function () {
       return false;
     }
 
-    // const pwPattern = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,12}$/;
-    const pwPattern = /^[0-9]{7,20}$/;
+    const pwPattern =
+      /^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,12}$/;
+    // const pwPattern = /^[0-9]{7,20}$/;
     if (!pwValue.match(pwPattern)) {
       alert("비밀번호는 8자리 이상으로 작성해주세요.");
       inputMemberPw.value = "";
