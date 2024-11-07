@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
     if (!validateLoginForm()) {
     } else {
-      alert("올리브영 회원님 반갑습니다!");
+      alert("결제가 완료되었습니다!");
       window.location.href = "/pay/payfinish.html";
     }
   });
