@@ -327,8 +327,8 @@ main {
       line-height: 60px;
       font-size: 16px;
       &.active {
-        background: #9ac75b;
-        border: 1px solid #9ac75b;
+        /* background: #9ac75b; */
+        /* border: 1px solid #9ac75b; */
         color: #fff;
       }
     }
@@ -343,8 +343,8 @@ main {
       font-size: 16px;
       &.active {
         width: 100%;
-        background: #9ac75b;
-        border: 1px solid #9ac75b;
+        /* background: #9ac75b; */
+        /* border: 1px solid #9ac75b; */
         color: #fff;
       }
     }
@@ -385,7 +385,7 @@ main {
         width: 100%;
         height: 80px;
         margin: 0 auto;
-        border: 1px solid #9bce26;
+        /* border: 1px solid #9bce26; */
         border-top: none;
         padding: 28px;
         align-items: center;
@@ -420,7 +420,7 @@ main {
         align-items: center;
         margin: 0 auto;
         padding: 10px;
-        background: #9ac75b;
+        /* background: #9ac75b; */
         &:hover {
           cursor: pointer;
         }
